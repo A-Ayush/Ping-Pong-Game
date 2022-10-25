@@ -12,7 +12,6 @@ var ball = document.getElementById('ball');
 var w = window.innerWidth;
 var h = window.innerHeight;
 
-//---- onloand
 window.onload = function(){
     if(localStorage.player === undefined){
          this.localStorage.setItem("score", "0");
