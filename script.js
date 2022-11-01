@@ -36,6 +36,19 @@ function updateHandles(){
     ball.style.top = h - 44 + "px";
 }
 
+// window.addEventListener("resize", updateHandles);
+// function updateHandles(){
+//     speed = Math.floor(w/25);
+//     t.style.width = "250px";
+//     t.style.left = (w/2 - 100) + "px";
+//     b.style.width = "250px";
+//     b.style.left = (w/2 - 100) + "px";
+//     ball.style.width = "20px";
+//     ball.style.left = (w/2 - 10) + "px";
+//     ball.style.top = h - 44 + "px";
+// }
+
+
 //---- strat game
 window.addEventListener("keydown", onKeyDown, true);
 function onKeyDown(event){
